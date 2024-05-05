@@ -16,14 +16,17 @@ content {
    justify-content: center;
    gap: 10px;
 }
+
 .title {
    width: auto;
    padding: 10px;
    margin-top: 20px;
-   background-color: cadetblue;
+
+   background: darkred;
    border-radius: 5px;
-   box-shadow: 0 4px 8px 0 rgb(121, 47, 63), 0 6px 20px 0 rgb(98, 98, 199);
-   color: azure;
+   box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+
+   color: aliceblue;
    text-transform: uppercase;
    font-size: 20px;
    text-align: center;
@@ -37,32 +40,44 @@ content {
        justify-content: space-between;
      }
      .item {
-       width: 200px;
-       height: 320px;
-       margin-bottom: 16px;
+       min-width: 200px;
+       min-height: 320px;
+       margin-bottom: 10px;
+       padding: 10px;
 
        border: 1px solid seashell;
        border-radius: 5px;
        box-shadow: 0 0 7px rgb(192, 72, 98);
+
        display: flex;
-       flex-direction: column;
+       flex-wrap: wrap;
        justify-content: space-between;
       }
       
-      .item-image  {
-         height: 200px;
-         background-image: url(img/мотокоса.jpg);
-         background-size: 70%;
-         background-repeat: no-repeat;
-         background-position: center;
+      .item-tittle{
+         font-weight: bold;
       }
 
+      .item-image  {
+         height: 200px;
+      }
+
+      .parts-pay {
+         margin-top: 30px;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+         justify-content: center;
+      }
       .parts-pay img {
-         height: 25px;
+         height: 24px;
       }
 
       .prise {
          border: 1px rgb(179, 151, 122);
+         border-radius: 5px;
+         padding: 5px 10px;
+         display: flex;
       }
 
       .prise div:first-child {
@@ -79,10 +94,6 @@ content {
       }
 
       .prise div:last-child {
-         font-size: 12px;
-      }
-
-      .prise div:last-child {
          font-size: 24px;
       }
 
@@ -91,8 +102,8 @@ content {
       }
 
       .bonus {
-         background-color: gold;
-         color: ivory;
+         background-color: rgb(246, 98, 98);
+         color: rgb(0, 21, 255);
          border-radius: 5px;
          display: flex;
          align-items: center;
@@ -117,10 +128,11 @@ content {
 
       .contacts p:first-child {
       font-weight: bold;
+      letter-spacing: 1px;
       }
 
       .contacts p:last-child {
-         border-left: 3px rgb(233, 221, 118);
+         border-left: 3px rgb(255, 72, 72);
       }
       .info{
          font-size: 9px;
