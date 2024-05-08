@@ -4,7 +4,8 @@ body {
    box-sizing: border-box;
 
    font-family: sans-serif;
-   background-color: rgb(211, 216, 143);
+   background-color: rgb(168, 177, 48);
+   background-color: rgb(255, 164, 107);
    display: flex;
    justify-content: center;
 }
@@ -22,12 +23,16 @@ content{
    width: auto;
    padding: 10px;
    margin-top: 20px;
-
-   background: rgb(67, 44, 201);
+   background: rgb(107, 87, 219);
    border-radius: 5px;
    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
 
-   color: rgb(255, 227, 227);
+   color: rgb(218, 150, 150);
+   background: rgb(49, 12, 12);
+   border-radius: 5px;
+   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
+
+   color: rgb(19, 161, 26);
    text-transform: uppercase;
    font-size: 20px;
    text-align: center;
@@ -49,9 +54,9 @@ content{
    margin-bottom: 10px;
    padding: 10px;
 
-   background-color: #fff0f0;
+   background-color: #5e7980;
 
-   border: 1px solid rgb(255, 226, 226);
+   border: 1px solid rgb(59, 68, 38);
    border-radius: 5px;
    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
 }
@@ -84,7 +89,7 @@ content{
 
 /* Блок ціни */
 .prise{
-   border: 1px solid rgb(206, 205, 255);
+   border: 1px solid rgb(124, 124, 177);
    border-radius: 5px;
    padding: 5px 10px;
    display: flex;
@@ -114,8 +119,13 @@ content{
 
 /* Блок бонусної ціни */
 .bonus{
+
    background: rgb(88, 9, 9);
    color: #bad694;
+
+   background: rgb(255, 39, 39);
+   color: #eddad1;
+
    border-radius: 5px;
    display: flex;
    align-items: center;
@@ -145,11 +155,18 @@ content{
 
 .contacts p:last-child{
    border-left: 3px solid rgb(255, 108, 108);
+
+   border-left: 3px solid rgb(255, 77, 77);
+
 }
 
 /* Блок інформації */
 .info {
    font-size: 9px;
    text-align: justify;
+
    color: rgb(56, 80, 0);
+
+   color: rgb(255, 238, 203);
+
 }
