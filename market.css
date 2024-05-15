@@ -4,8 +4,8 @@ body {
    box-sizing: border-box;
 
    font-family: sans-serif;
-   background-color: rgb(168, 177, 48);
-   background-color: rgb(255, 164, 107);
+   background-color: rgb(221, 226, 148);
+   background-color: rgb(255, 240, 231);
    display: flex;
    justify-content: center;
 }
@@ -23,16 +23,16 @@ content{
    width: auto;
    padding: 10px;
    margin-top: 20px;
-   background: rgb(107, 87, 219);
+   background: rgb(230, 225, 255);
    border-radius: 5px;
    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
 
-   color: rgb(218, 150, 150);
-   background: rgb(49, 12, 12);
+   color: rgb(255, 216, 216);
+   background: rgb(49, 22, 22);
    border-radius: 5px;
    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
 
-   color: rgb(19, 161, 26);
+   color: rgb(237, 255, 238);
    text-transform: uppercase;
    font-size: 20px;
    text-align: center;
@@ -54,9 +54,9 @@ content{
    margin-bottom: 10px;
    padding: 10px;
 
-   background-color: #5e7980;
+   background-color: #cceff8;
 
-   border: 1px solid rgb(59, 68, 38);
+   border: 1px solid rgb(54, 77, 0);
    border-radius: 5px;
    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
 }
@@ -89,7 +89,7 @@ content{
 
 /* Блок ціни */
 .prise{
-   border: 1px solid rgb(124, 124, 177);
+   border: 1px solid rgb(236, 236, 255);
    border-radius: 5px;
    padding: 5px 10px;
    display: flex;
