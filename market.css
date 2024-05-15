@@ -23,12 +23,12 @@ content{
    width: auto;
    padding: 10px;
    margin-top: 20px;
-   background: rgb(230, 225, 255);
+   background: rgb(246, 244, 255);
    border-radius: 5px;
    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
 
-   color: rgb(255, 216, 216);
-   background: rgb(49, 22, 22);
+   color: rgb(255, 245, 245);
+   background: rgb(196, 46, 46);
    border-radius: 5px;
    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
 
@@ -54,7 +54,7 @@ content{
    margin-bottom: 10px;
    padding: 10px;
 
-   background-color: #cceff8;
+   background-color: #f6fdff;
 
    border: 1px solid rgb(54, 77, 0);
    border-radius: 5px;
@@ -89,7 +89,7 @@ content{
 
 /* Блок ціни */
 .prise{
-   border: 1px solid rgb(236, 236, 255);
+   border: 1px solid rgb(219, 139, 139);
    border-radius: 5px;
    padding: 5px 10px;
    display: flex;
