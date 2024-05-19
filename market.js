@@ -2,26 +2,42 @@
 // console.log('Перевірка підключеного файлу скриптів market.js')
 
 let itemsArray = [
-    'Газонокосарка 43',
-    'Електричний тример 110',
-    'Електрична газонокосарка 32',
-    'Акумуляторний оприскувач 12 N',
-    'Газонокосарка 430',
-    'Електричний тример 130',
-    'Електрична газонокосарка 320',
-    'Акумуляторний оприскувач 12 Е', 
-    'Газонокосарка 830',
-    'Електричний тример 1306',
-    'Електрична газонокосарка 350',
-    'Акумуляторний оприскувач 312 Е',
-     'Газонокосарка 425',
-    'Електричний тример 630',
-    'Електрична газонокосарка 3520',
-    'Акумуляторний оприскувач 125 Е',
-     'Газонокосарка 2454',
-    'Електричний тример 346',
-    'Електрична газонокосарка 3632',
-    'Акумуляторний оприскувач 153 Е',
+ {
+    firstName:"Ірина",
+    lastName:"Боровська-Карандюк",
+    age:20,
+    subject:"Українська мова, українська література, зарубіжна література",
+    photo:"img/borovska-karandyuk-iryna-anatoliyivna-683x1024.jpg",
+    width:100,
+    height:100
+ },
+ {
+    firstName:"Василь",
+    lastName:"Бабій",
+    age:30,
+    subject:"Фізична культура",
+    photo:"img/babiy-vasyl-dmytrovych-683x1024.jpg",
+    width:100,
+    height:100
+ },
+ {
+    firstName:"Вікторія",
+    lastName:"Нелипович",
+    age:20,
+    subject:"Математика",
+    photo:"img/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
+    width:100,
+    height:100
+ },
+ {
+    firstName:"Іван",
+    lastName:"Севрук",
+    age:30,
+    subject:"Захист України",
+    photo:"img/sevruk-ivan-hryhorovych-683x1024.jpg",
+    width:100,
+    height:100
+ }
  ]
 
 // Отримання елементу з ідентифікатором items
@@ -56,11 +72,10 @@ if(itemsDiv) {
        itemsDiv.innerHTML += 
        `
        <div class = "item">
-       <h2>Товар №${index +1 } з ${itemsArray.length}</h2>
-      
-
-
-       <p>${item}</p>
+       <h2>Вчитель №${index +1 } з ${itemsArray.length}</h2>
+       <p>${item.lastName} ${item.firstName}</p>
+       <p><img src="${item.photo}" alt="${item.lastName} ${item.firstName}" class=""</p>
+       <p>Вік: ${item.age}</p>
        </div>
        `
     })
