@@ -26,8 +26,8 @@ let itemsArray = [
     age:20,
     subject:"Математика",
     photo:"img/nelypovych-viktoriya-vitaliyivna-683x1024.jpg",
-    width:100,
-    height:100
+    width:50,
+    height:50
  },
  {
     firstName:"Іван",

@@ -1,142 +1,127 @@
 body {
-   margin: 0px;
-   padding: 0px;
+   margin: 0;
+   padding: 0;
    box-sizing: border-box;
-
-   font-family: sans-serif;
-   background-color: rgb(221, 226, 148);
-   background-color: rgb(255, 240, 231);
+   font-family: Roboto;
+   background: rgb(235, 216, 216);
    display: flex;
    justify-content: center;
+   align-items: center;
 }
 
-content{
-   width: 460px;
+content {
+   width: 420px;
    display: flex;
-   flex-direction:column;
-   justify-content: center;
-   gap:10px
+   flex-direction: column;
+   gap: 10bodpx;
+   margin-top: 5px; 
 }
 
-/* Блок заголовку */
-.title{
+
+.header {
+   background: rgb(173, 4, 4);
    width: auto;
+   color: white;
    padding: 10px;
-   margin-top: 20px;
-   background: rgb(246, 244, 255);
    border-radius: 5px;
-   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
-
-   color: rgb(255, 245, 245);
-   background: rgb(196, 46, 46);
-   border-radius: 5px;
-   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
-
-   color: rgb(237, 255, 238);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    text-transform: uppercase;
    font-size: 20px;
    text-align: center;
    font-weight: bold;
    letter-spacing: 3px;
+   margin-bottom: 10px;
+   margin-top: 10px ;
 }
 
-/* Блок товарів */
-.items{
-   display: flex;
+.items {
    flex-wrap: wrap;
+   display: flex;
    justify-content: space-between;
 }
 
-/* Блок окремого товару */
-.item{
-   min-width: 200px;
+.item {
+   min-width: 180px;
    min-height: 320px;
    margin-bottom: 10px;
    padding: 10px;
-
-   background-color: #f6fdff;
-
-   border: 1px solid rgb(54, 77, 0);
+   background-color: #ffffff;
+   border: 1px solid rgb(194, 194, 194);
    border-radius: 5px;
-   box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+   box-shadow: 0 0 7px black;
+   
 }
-
-/* Блок назви товару */
-.item-title{
+.bober{
+   font-weight: bold;
+}
+.item-tittle {
    font-weight: bold;
 }
 
-/* Блок зображення товару */
-.item-image{
+.item-image {
    height: 200px;
-   background-image: url(img/мотокоса.jpg);
+   background-image: url(img-market/1.png);
    background-size: 70%;
    background-repeat: no-repeat;
    background-position: center;
 }
 
-/* Блок з оплатою частинами */
-.parts-pay{
+.parts-pay {
    display: flex;
    flex-direction: column;
    align-items: flex-end;
    justify-content: center;
 }
 
-.parts-pay img{
+.parts-pay img {
    height: 24px;
 }
 
-/* Блок ціни */
-.prise{
-   border: 1px solid rgb(219, 139, 139);
+.prise {
+   border: 1px solid rgb(194, 194, 194);
    border-radius: 5px;
    padding: 5px 10px;
    display: flex;
-}
-
-.prise div:first-child{
-   width: 100px;
-   font-size: 20px;
-}
-
-.prise div:first-child span{
-   text-decoration-line: line-through;
    
 }
 
-.prise div:first-child sup{
-   font-size: 12px; 
+.prise div:first-child {
+   width: 80px;
+   font-size: 20px;
 }
 
-.prise div:last-child{
+.prise div:first-child span {
+   text-decoration-line: line-through;
+}
+
+.prise div:first-child sup {
+   font-size: 12px;
+}
+
+.prise div:last-child {
    font-size: 24px;
 }
 
-.prise div:last-child sup{
+.prise div:last-child sup {
    font-size: 14px;
 }
 
-/* Блок бонусної ціни */
-.bonus{
-
-   background: rgb(88, 9, 9);
-   color: #bad694;
-
-   background: rgb(255, 39, 39);
-   color: #eddad1;
-
+.bonus {
+   background: rgb(173, 4, 4);
+   color: white;
    border-radius: 5px;
    display: flex;
    align-items: center;
+   margin-top: 5px;
+   
 }
 
-.bonus div:first-child{
-   width: 100px;
+.bonus div:first-child {
+   width: 80px;
    font-size: 14px;
 }
 
-.bonus div:last-child{
+.bonus div:last-child {
    font-size: 24px;
 }
 
@@ -144,29 +129,29 @@ content{
    font-size: 14px;
 }
 
-/* Блок контактів */
+.info {
+   font-size: 9px;
+   text-align: justify;
+   color: grey;
+}
+
+
+
 .contacts p {
    margin: 3px;
 }
 
-.contacts p:first-child{
+.contacts p:first-child {
    font-weight: bold;
 }
 
-.contacts p:last-child{
-   border-left: 3px solid rgb(255, 108, 108);
-
-   border-left: 3px solid rgb(255, 77, 77);
-
+.contacts p:last-child {
+   border-left: 3px solid rgb(173, 4, 4);
+   padding-left: 5px;
 }
 
-/* Блок інформації */
-.info {
+.license {
    font-size: 9px;
    text-align: justify;
-
-   color: rgb(56, 80, 0);
-
-   color: rgb(255, 238, 203);
-
+   color: rgb(120, 120, 120);
 }
