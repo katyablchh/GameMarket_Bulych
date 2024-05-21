@@ -54,17 +54,23 @@ content {
 .bober{
    font-weight: bold;
 }
-.item-tittle {
+.item-title {
    font-weight: bold;
+   max-width: 180x;
+   min-height: 38px;
+   overflow: hidden;
+
+   
 }
 
 .item-image {
    height: 200px;
-   background-image: url(img-market/1.png);
+   /* background-image: url(img-market/1.png); */
    background-size: 70%;
    background-repeat: no-repeat;
    background-position: center;
 }
+
 
 .parts-pay {
    display: flex;
@@ -154,4 +160,15 @@ content {
    font-size: 9px;
    text-align: justify;
    color: rgb(120, 120, 120);
+}
+button {
+   background-color: #a50e0e;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   margin: 0 10px;
+   cursor: pointer;
+   border-radius: 5px;
+   font-size: 16px;
+   transition: background-color 0.3s ease;
 }
