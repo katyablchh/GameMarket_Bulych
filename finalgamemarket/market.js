@@ -275,7 +275,7 @@ let itemsArray = [
 // Отримання елементу з індифікатором items
 let itemsDiv = document.getElementById("items");
 // Перевірка існування знайденого блоку 
-if (itemsDiv) { 
+if (itemsDiv) 
     // Створення блоків по кількості елементів масиву
     itemsArray.forEach((item, index) => {
         // Виводимо на веб-сторінку елемент масиву в блок з класом item
@@ -283,29 +283,34 @@ if (itemsDiv) {
     
         <div class="item">
         <div class="bober">
-            <div class="item-title">${item.gameTitle}</div>
-            <div class="item-title">${item.name}</div>
+            <div class="item-title">${item.email}</div>
+            <div class="item-title">${item.group}</div>
         </div>
         <div class="item-image">
-        <img src="${item}"  class="item-image">
+        <img src="${item.image}"  class="item-image">
            
+        <p><img src="${item.photo}" " class="item-image"></p>
             
         </div>
         <div class="parts-pay">
-            <div><img src="img-market/mono-lapka.png" alt="">6</div>
-            <div><img src="img-market/pb.png" alt="">8</div>
-        </div>
-        <div class="prise">
-            <div><span>${item}</span><sup>грн</sup></div>
-            <div><span>${item}</span><sup>грн</sup></div>
-        </div>
-        <div class="prise bonus">
-            <div>ціна за купоном</div>
-            <div><span>${item}</span><sup>грн</sup></div>
-        </div>
+            <div><a href = "${item.game_github}" target=_blank>Market Github</
+            a><div>
+            <div><a href = "${item.game_pages}" target=_blank>Market Pages</
+            a><div>
+            <div><a href = "${item.docs}" target=_blank>Docs</
+            a><div>
+            <div><a href = "${item.forms}" target=_blank>Forms</
+            a><div>
+            <div><a href = "${item.gamemarket_github}" target=_blank>Gamemarket_github</
+            a><div>
+            <div><a href = "${item.gamemarket_pages}" target=_blank>Gamemarket_pages</
+            a><div>
+            <div><a href = "${item.market_pages}" target=_blank>Market_pages</
+            a><div>
+           
+            
+            
+          
+        
     </div>`;
 });
-} else {
-// Вивід повідомлення про не знайдений блок 
-console.log('Блок товарів не знайдено');
-}

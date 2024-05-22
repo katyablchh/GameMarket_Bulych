@@ -117,12 +117,8 @@ content {
    border-radius: 5px;
    display: flex;
    align-items: center;
-<<<<<<< HEAD:finalgamemarket/market.css
    padding: 5px;
-=======
-   margin-top: 5px;
-   
->>>>>>> 2993e4b7359171bb15def2f00ed2730ed7b7f195:market.css
+
 }
 
 .bonus div:first-child {
