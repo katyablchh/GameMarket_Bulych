@@ -7,6 +7,7 @@ let itemsArray = [
   {
     email: "23a_bam@liceum.ztu.edu.ua",
     class: "10-А 1",
+    photo: "Боровий.jpg",
     name: "Боровий Артур",
     gameTitle: "Дід проти москалів",
     gameRepo: "https://github.com/23a-bam/Phaser2ndGame",
@@ -21,6 +22,7 @@ let itemsArray = [
   {
     email: "23a_gki@liceum.ztu.edu.ua",
     class: "10-А 1",
+    photo: "Геча.jpg",
     name: "Геча Кирило",
     gameTitle: "Магазин UkraineRog",
     gameRepo: "https://github.com/Kyrylooo/GameMarket_Surname",
@@ -35,6 +37,7 @@ let itemsArray = [
   {
     email: "23a_gmo@liceum.ztu.edu.ua",
     class: "10-А 1",
+    photo: "Громова.jpg",
     name: "Громова Марина",
     gameTitle: "",
     gameRepo: "https://github.com/Marina745/Phaser2ndGame",
@@ -49,6 +52,7 @@ let itemsArray = [
   {
     email: "23a_gayu@liceum.ztu.edu.ua",
     class: "10-А 1",
+    photo: "Гуменюк 2.jpg",
     name: "Гуменюк Аріна",
     gameTitle: "",
     gameRepo: "https://github.com/NoraBlank/-Phaser2ndGame?authuser=0",
@@ -63,6 +67,7 @@ let itemsArray = [
   {
     email: "23a_dii@liceum.ztu.edu.ua",
     class: "10-А 1",
+    photo: "Демидчук.jpg",
     name: "Демидчук Ілля",
     gameTitle: "",
     gameRepo: "https://github.com/zxcursed2008/Phaser2ndGame",
@@ -77,6 +82,7 @@ let itemsArray = [
   {
     email: "23a_dyem@liceum.ztu.edu.ua",
     class: "10-А 1",
+    photo: "Деркач-Edit.jpg",
     name: "Деркач Єлизавета",
     gameTitle: "Царівна жаба",
     gameRepo: "https://github.com/liska228/Phaser2ndGame",
@@ -284,29 +290,29 @@ if (itemsDiv)
         <div class="item">
         <div class="bober">
             <div class="item-title">${item.email}</div>
-            <div class="item-title">${item.group}</div>
+            <div class="item-title">${item.class}</div>
         </div>
         <div class="item-image">
-        <img src="${item.image}"  class="item-image">
-           
-        <p><img src="${item.photo}" " class="item-image"></p>
+        <img src="${item.image}"  class="item-image">  
+        <img src="img/${item.photo}" class="item-image" alt="">
             
         </div>
         <div class="parts-pay">
-            <div><a href = "${item.game_github}" target=_blank>Market Github</
+            <div><a href = "${item.gameRepo}" target=_blank>Market Github</
             a><div>
-            <div><a href = "${item.game_pages}" target=_blank>Market Pages</
+            <div><a href = "${item.gameDemo}" target=_blank>Market Pages</
             a><div>
-            <div><a href = "${item.docs}" target=_blank>Docs</
+            <div><a href = "${item.driveFolder}" target=_blank>Docs</
             a><div>
-            <div><a href = "${item.forms}" target=_blank>Forms</
+            <div><a href = "${item.feedbackForm}" target=_blank>Forms</
             a><div>
-            <div><a href = "${item.gamemarket_github}" target=_blank>Gamemarket_github</
+            <div><a href = "${item.marketRepo}" target=_blank>Gamemarket_github</
             a><div>
-            <div><a href = "${item.gamemarket_pages}" target=_blank>Gamemarket_pages</
+            <div><a href = "${item.marketDemo}" target=_blank>Gamemarket_pages</
             a><div>
-            <div><a href = "${item.market_pages}" target=_blank>Market_pages</
+            <div><a href = "${item.marketPage}" target=_blank>Market_pages</
             a><div>
+
            
             
             
